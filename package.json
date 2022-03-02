@@ -1,6 +1,6 @@
 {
   "name": "jnlogger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JN Custom Logger that applies headers and body and title and measures time elapsed on every type of entry.",
   "main": "jnlogger.js",
   "scripts": {
