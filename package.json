@@ -1,10 +1,10 @@
 {
   "name": "jnlogger",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "JN Custom Logger that applies headers and body and title and measures time elapsed on every type of entry.",
   "main": "jnlogger.js",
   "scripts": {
-    "test": "npm test"
+    "test": "nyc --reporter=text --reporter=html mocha"
   },
   "repository": {
     "type": "git",
@@ -35,6 +35,10 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/janunezc/jnlogger/issues"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0",
+    "mocha": "^8.2.1"
   },
   "homepage": "https://github.com/janunezc/jnlogger#readme"
 }
