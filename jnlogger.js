@@ -4,8 +4,9 @@
     function title(msg){
       console.log("\n".repeat(30));
       console.log("---------------------------------------------------\n".repeat(5));
-      console.log(`|T|${idx} - (${Date.now()}: ${msg})`)
+      console.log(`|T|I:${idx} |TS:${Date.now()}: ${msg}`);
       console.log("---------------------------------------------------\n".repeat(3));
+      idx++;
     }
 
     let lastHeadingTs = 0;
