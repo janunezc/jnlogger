@@ -1,0 +1,40 @@
+{
+  "name": "jnlogger",
+  "version": "0.0.2",
+  "description": "JN Custom Logger that applies headers and body and title and measures time elapsed on every type of entry.",
+  "main": "jnlogger.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janunezc/jnlogger.git"
+  },
+  "keywords": [
+    "JN",
+    "Custom",
+    "Logger",
+    "that",
+    "applies",
+    "headers",
+    "and",
+    "body",
+    "and",
+    "title",
+    "and",
+    "measures",
+    "time",
+    "elapsed",
+    "on",
+    "every",
+    "type",
+    "of",
+    "entry."
+  ],
+  "author": "Jose Angel Nunez Chaves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janunezc/jnlogger/issues"
+  },
+  "homepage": "https://github.com/janunezc/jnlogger#readme"
+}
